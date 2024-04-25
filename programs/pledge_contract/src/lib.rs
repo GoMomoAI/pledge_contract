@@ -8,11 +8,11 @@ use anchor_spl::{
     token::{self, FreezeAccount, Mint, ThawAccount, Token, TokenAccount},
 };
 
-declare_id!("");
+declare_id!("8Gc5RgHx5X9gHgZu3yEMY14cUpTiXrnVM81X2tsEwAGG");
 
 mod admin {
     use anchor_lang::declare_id;
-    declare_id!("");
+    declare_id!("HbuithRwebRJVJ3PWS3fTSrSKTsWLcyhcCPKuCMiCaRm");
 }
 
 /// The program derived address seed.
